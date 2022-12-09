@@ -1,0 +1,100 @@
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #1D7874;
+    font-family: 'Anek Devanagari', sans-serif;
+    color: #2C302E;
+    
+}
+
+.container{
+    display: flex;
+    background-color:#F4C095;
+    width: 800px;
+    height: 70%;
+    border-radius: 25px;
+    box-shadow: 0 0 50px #ccc;
+}
+
+.imageSide{
+    width: 40%;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 5px;
+    height:
+}
+
+#mainImage{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.formside{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header, form, footer{
+    flex: 1 1 0px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p{
+    font-weight: 700;
+}
+
+form{
+    background-color: rgba(245, 245, 245, .5);
+    box-shadow: inset 0 0 10px #f8a100;
+}
+
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    text-align: center;
+}
+
+legend{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.item{
+    width: 50%;
+}
+
+label{
+    display: block;
+}
+
+input[type=submit] {
+    padding:10px 15px; 
+    background:#f80057c6; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-family: 'Anek Devanagari', sans-serif;
+    color: #2C302E;
+}
+
+input[type=text]:focus{
+    border-color: blue;
+    box-shadow: ;
+}
